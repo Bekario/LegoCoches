@@ -1,44 +1,156 @@
 .login-container {
-    height: 110vh;
+    height: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom, #F92868 0%, #FF6F61 100%);
     color: #fff;
+    font-family: "Poppins", sans-serif;
   }
-  
-  form {
+
+  .titulo {
+    color: black;
+    text-align: center;
+  }
+
+  .titulo {
     background: rgba(255, 255, 255, 0.8);
-    padding: 45px;
+    padding: 15px;
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .formulario {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 30px;
     border-radius: 18px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   }
 
-  label {
-    display: block;
-    margin-bottom: 8px;
-    color: black;
+  button:hover {
+    background: #ff6f61;
   }
-  
 
-  input {
+
+  /* Input de texto */
+
+  .form__group {
+    position: relative;
+    padding: 20px 0 0;
     width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    max-width: 180px;
+    margin-bottom: 10px;
   }
   
-  button {
-    background: #f09819;
-    color: #fff;
-    padding: 10px 20px;
+  .form__field {
+    font-family: inherit;
+    width: 100%;
     border: none;
-    border-radius: 4px;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 17px;
+    color: black;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  
+  .form__field::placeholder {
+    color: transparent;
+  }
+  
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 17px;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: gray;
+    pointer-events: none;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to bottom, #F92868 0%, #FF6F61 100%);
+    border-image-slice: 1;
+  }
+  
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #F92868;
+    font-weight: 700;
+  }
+  
+  /* reset input */
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+
+  /*Boton login*/
+  .cssbuttons-io-button {
+    margin-top: 50px;
+    background: #F92868;
+    color: white;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 0.9em;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #FF6F61;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3.3em;
     cursor: pointer;
   }
   
-  button:hover {
-    background: #ff6f61;
+  .cssbuttons-io-button .icon {
+    background: white;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #FF6F61;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color: #FF6F61;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
   }
   
