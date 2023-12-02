@@ -1,8 +1,8 @@
 
 /* Estilos para la barra de navegación */
-.navbar {
+.navbar-list {
     background-color: #333;
-    height: 60px;
+    height: 80px;
     display: flex;
     align-items: center;
     padding: 0 20px;
@@ -11,19 +11,20 @@
 }
 
 /* Estilos para el icono de la aplicación */
-.app-icon {
+.logo {
   font-size: 24px;
   margin-right: 10px;
+  width: 80px;
 }
   
 /* Estilos para los elementos de la barra de navegación */
-.nav-item {
+.navbar-item {
   margin-right: 20px;
-  font-size: 18px;
-  color: #333;
-  text-decoration: none;
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  text-decoration: none; /* Remove underline */
+  color: #fff; /* Text color white */
+  cursor: default;
 }
 
-.nav-item:hover {
-  color: #555;
-}
