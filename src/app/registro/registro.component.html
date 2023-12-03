@@ -1,1 +1,91 @@
-<p>registro works!</p>
+<head>
+    <meta charset="UTF-8">
+    <title>Barra de navegación</title>
+    <link rel="stylesheet" href="registro.component.css">
+</head>
+<div class="registro-container">
+    <form class="caja_titulo">
+        <h1 class="titulo">Registro</h1>
+    </form>
+
+    <div class="formulario">
+        <div class="form__group_correo field">
+            <input type="input" class="form__field" placeholder="Nombre" required="">
+            <label for="nombre" class="form__label">Correo electrónico</label>
+        </div>
+        <div class="form__group_codigo field">
+            <input type="input" class="form__field" placeholder="Nombre" required="">
+            <label for="nombre" class="form__label">Código Postal</label>
+        </div>
+        <div class="imagen">
+            <label for="imageUpload">Icono:</label>
+            <input type="file" id="imageUpload" name="imageUpload" accept="image/*" class="inputfile" />
+            <label for="imageUpload" class="moderno-boton">Seleccionar imagen</label>
+        </div>
+    </div>
+
+
+    <div class="piloto1">
+        <div class="titulo_pilotos">
+            <p>Piloto 1</p>
+        </div>
+        <div class="form__group_nombre field">
+            <input type="input" class="form__field" placeholder="Nombre" required="">
+            <label for="nombre" class="form__label">Nombre</label>
+        </div>
+
+        <div class="form__group_apodo field">
+            <input type="input" class="form__field" placeholder="Apodo" required="">
+            <label for="apodo" class="form__label">Apodo</label>
+        </div>
+
+        <div class="checkbox-desempleado">
+            <label class="cyberpunk-checkbox-label">
+                <input type="checkbox" class="cyberpunk-checkbox">
+                ¿Desempleado?
+            </label>
+        </div>
+
+        <div class="selector">
+            <label class="label_lego">Lego Cars:</label>
+            <select id="legocars" name="legocars" required>
+                <option>Fórmula 1</option>
+                <option>4 x 4</option>
+                <option>Náscar</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div class="piloto2">
+        <div class="titulo_pilotos">
+            <p>Piloto 2</p>
+        </div>
+        <div class="form__group_nombre field">
+            <input type="input" class="form__field" placeholder="Nombre" required="">
+            <label for="nombre" class="form__label">Nombre</label>
+        </div>
+
+        <div class="form__group_apodo field">
+            <input type="input" class="form__field" placeholder="Apodo" required="">
+            <label for="apodo" class="form__label">Apodo</label>
+        </div>
+
+        <div class="checkbox-desempleado">
+            <label class="cyberpunk-checkbox-label">
+                <input type="checkbox" class="cyberpunk-checkbox">
+                ¿Desempleado?
+            </label>
+        </div>
+
+        <div class="selector">
+            <label class="label_lego">Lego Cars:</label>
+            <select id="legocars" name="legocars" required>
+                <option>Fórmula 1</option>
+                <option>4 x 4</option>
+                <option>Náscar</option>
+            </select>
+        </div>
+
+    </div>
+</div>

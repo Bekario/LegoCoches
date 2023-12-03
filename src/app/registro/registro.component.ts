@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './registro.component.html',
   styleUrl: './registro.component.css'
 })
-export class RegistroComponent {
 
+export class RegistroComponent {
+ 
 }
