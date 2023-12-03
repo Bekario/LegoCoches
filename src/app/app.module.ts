@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.component';
 import { BarraInferiorComponent } from './barra-inferior/barra-inferior.component';
 import { RegistroComponent } from './registro/registro.component';
+import { MainTripulacionComponent } from './main-tripulacion/main-tripulacion.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { RegistroComponent } from './registro/registro.component';
     LoginComponent,
     BarraNavegacionComponent,
     BarraInferiorComponent,
-    RegistroComponent
+    RegistroComponent,
+    MainTripulacionComponent
   ],
   imports: [
     BrowserModule,
