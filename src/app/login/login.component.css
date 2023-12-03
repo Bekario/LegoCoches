@@ -1,12 +1,14 @@
 .login-container {
-    height: 700px;
     display: grid;
     grid-template-columns: 2fr auto 2fr;
     grid-template-rows: auto 50px auto 200px;
 
-    background: linear-gradient(to bottom, #F92868 0%, #FF6F61 100%);
     color: #fff;
     font-family: "Poppins", sans-serif;
+  }
+
+  body {
+    background: linear-gradient(to bottom, #F92868 0%, #FF6F61 100%);
   }
   
   .caja_titulo {

@@ -3,13 +3,20 @@ body {
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  
+
+  div {
+    background-color: #FDC3C0;
+  }
+
   .footer {
     font-family: Poppins, sans-serif;
-    background-color: #FDC3C0;
     color: #000000;
-    padding: 40px 0;
     text-align: center;
+
+  }
+
+  .separador {
+    height: 20px;
   }
   
   .container {
