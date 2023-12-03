@@ -9,18 +9,7 @@
 
     <!-- Carrusel de Últimas Noticias -->
     <section class="carousel">
-        <h2>Últimas Noticias</h2>
-        <div class="news-carousel">
-          <!-- <div class="news-item" *ngFor="let item of newsItems; let i = index" [class.active]="i === currentSlide">
-            <img [src]="item.image" alt="{{'Noticia ' + (i + 1)}}">
-            <h3>{{item.title}}</h3>
-            <p>{{item.description}}</p>
-          </div> -->
-        </div>
-        <div class="carousel-buttons">
-          <!-- <button (click)="prevSlide()">Anterior</button>
-          <button (click)="nextSlide()">Siguiente</button> -->
-        </div>
+        <app-carrusel-noticias ngSkipHydration></app-carrusel-noticias>
       </section>
 
     <!-- Próximas Carreras -->
@@ -37,8 +26,6 @@
     <section class="current-position">
         <h2>Posición Actual</h2>
         <p>¡Estás en la posición X en la carrera actual!</p>
-    </section>
-    
-    <script src="../../assets/scripts/scripts.js"></script>
+    </section>    
 </body>
 

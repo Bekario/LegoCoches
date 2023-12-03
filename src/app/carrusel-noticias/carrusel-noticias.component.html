@@ -1,6 +1,15 @@
-<!-- photo-carousel.component.html -->
-<div>
-  <img [src]="images[currentSlideIndex]" alt="Slide">
-  <button (click)="showPrevious()">Previous</button>
-  <button (click)="showNext()">Next</button>
-</div>
+<!-- carrusel-noticias.component.html -->
+<section>
+  <h2>Últimas Noticias</h2>
+  <div>
+    <div>
+      <img [src]="getCurrentNews().image" alt="{{'Noticia ' + (currentSlide + 1)}}">
+      <h3>{{getCurrentNews().title}}</h3>
+      <p>{{getCurrentNews().description}}</p>
+    </div>
+  </div>
+  <div>
+    <button (click)="prevSlide()">Anterior</button>
+    <button (click)="nextSlide()">Siguiente</button>
+  </div>
+</section>

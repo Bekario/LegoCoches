@@ -1,3 +1,4 @@
+
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,18 +7,36 @@ import { Component } from '@angular/core';
   styleUrls: ['./carrusel-noticias.component.css']
 })
 export class CarruselNoticiasComponent {
-  currentSlideIndex = 0;
-  images = [
-    'https://www.ikea.com/es/es/images/products/bygglek-caja-201-piezas-lego-r-colores-variados__0915518_pe784785_s5.jpg',
-    'https://www.lego.com/cdn/cs/set/assets/bltd8807580a3e088cc/10270_alt3.jpg',
-    'https://www.lego.com/cdn/cs/set/assets/bltc490cf3d5c284e1a/21325_alt3.jpg?fit=bounds&format=jpg&quality=80&width=1500&height=1500&dpr=1'
+  currentSlide = 0;
+
+  newsItems = [
+    {
+      image: 'https://www.mundodeportivo.com/urbantecno/hero/2023/03/todos-los-satelites-y-rovers-que-la-nasa-ha-mandado-al-espacio.jpg?width=768&aspect_ratio=16:9&format=nowebp',
+      title: 'Increíble descubrimiento en la investigación espacial',
+      description: 'Los científicos han anunciado un descubrimiento asombroso en la exploración espacial, revelando nuevos detalles sobre el universo.'
+    },
+    {
+      image: 'https://res.cloudinary.com/dkkd45ayz/image/upload/f_auto,q_auto,dpr_auto/w_600,h_343,c_scale/episerver/06a5df51-01d1-44c8-a25f-69f1977ef8f5/a-revolutionary-technology.jpg',
+      title: 'Nueva tecnología revolucionaria cambia la forma en que vivimos',
+      description: 'Una innovadora tecnología ha llegado al mercado, prometiendo transformar la forma en que interactuamos con la tecnología en nuestra vida diaria.'
+    },
+    {
+      image: 'https://suportamed.com/wp-content/uploads/2021/03/enfermedades-cronicas-imagen-destacada.jpg',
+      title: 'Tratamiento prometedor contra enfermedades crónicas',
+      description: 'Nuevo tratamiento médico ha demostrado ser prometedor en el combate contra enfermedades crónicas, ofreciendo esperanza a millones de personas.'
+    }
   ];
 
-  showNext() {
-    this.currentSlideIndex = (this.currentSlideIndex + 1) % this.images.length;
+  prevSlide() {
+    this.currentSlide = (this.currentSlide - 1 + this.newsItems.length) % this.newsItems.length;
   }
 
-  showPrevious() {
-    this.currentSlideIndex = (this.currentSlideIndex - 1 + this.images.length) % this.images.length;
+  nextSlide() {
+    this.currentSlide = (this.currentSlide + 1) % this.newsItems.length;
+  }
+
+  getCurrentNews() {
+    return this.newsItems[this.currentSlide];
   }
 }
+

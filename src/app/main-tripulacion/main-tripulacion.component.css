@@ -16,6 +16,9 @@ section {
 }
 
 
+.carousel{
+    margin-top: 250px;
+}
 
 .carousel, .next-races, .current-position {
     border: 1px solid #ddd;
