@@ -1,0 +1,44 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Inicio</title>
+    <link rel="stylesheet" href="main-tripulacion.component.css">
+</head>
+<body>
+
+    <!-- Carrusel de Últimas Noticias -->
+    <section class="carousel">
+        <h2>Últimas Noticias</h2>
+        <div class="news-carousel">
+          <div class="news-item" *ngFor="let item of newsItems; let i = index" [class.active]="i === currentSlide">
+            <img [src]="item.image" alt="{{'Noticia ' + (i + 1)}}">
+            <h3>{{item.title}}</h3>
+            <p>{{item.description}}</p>
+          </div>
+        </div>
+        <div class="carousel-buttons">
+          <button (click)="prevSlide()">Anterior</button>
+          <button (click)="nextSlide()">Siguiente</button>
+        </div>
+      </section>
+
+    <!-- Próximas Carreras -->
+    <section class="next-races">
+        <h2>Próximas Carreras</h2>
+        <ul>
+            <li>Carrera 1 - Fecha</li>
+            <li>Carrera 2 - Fecha</li>
+            <li>Carrera 3 - Fecha</li>
+        </ul>
+    </section>
+
+    <!-- Posición en la Carrera Actual -->
+    <section class="current-position">
+        <h2>Posición Actual</h2>
+        <p>¡Estás en la posición X en la carrera actual!</p>
+    </section>
+    
+    <script src="../../assets/scripts/scripts.js"></script>
+</body>
+
