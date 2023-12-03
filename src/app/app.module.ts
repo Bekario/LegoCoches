@@ -8,6 +8,7 @@ import { BarraNavegacionComponent } from './barra-navegacion/barra-navegacion.co
 import { BarraInferiorComponent } from './barra-inferior/barra-inferior.component';
 import { RegistroComponent } from './registro/registro.component';
 import { MainTripulacionComponent } from './main-tripulacion/main-tripulacion.component';
+import { CarruselNoticiasComponent } from './carrusel-noticias/carrusel-noticias.component';
 
 @NgModule({
   declarations: [
@@ -16,11 +17,12 @@ import { MainTripulacionComponent } from './main-tripulacion/main-tripulacion.co
     BarraNavegacionComponent,
     BarraInferiorComponent,
     RegistroComponent,
-    MainTripulacionComponent
+    MainTripulacionComponent,
+    CarruselNoticiasComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [
     provideClientHydration()
