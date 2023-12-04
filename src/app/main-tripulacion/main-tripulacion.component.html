@@ -1,24 +1,25 @@
 <body>
+    <div class="main_container">
+        <!-- Carrusel de Últimas Noticias -->
+        <div class="carousel">
+            <app-carrusel-noticias ngSkipHydration></app-carrusel-noticias>
+        </div>
 
-    <!-- Carrusel de Últimas Noticias -->
-    <section class="carousel">
-        <app-carrusel-noticias ngSkipHydration></app-carrusel-noticias>
-      </section>
+        <!-- Próximas Carreras -->
+        <div class="next-races">
+            <h2>Próximas Carreras</h2>
+            <ul>
+                <li>Carrera 1 - Fecha</li>
+                <li>Carrera 2 - Fecha</li>
+                <li>Carrera 3 - Fecha</li>
+            </ul>
+        </div>
 
-    <!-- Próximas Carreras -->
-    <section class="next-races">
-        <h2>Próximas Carreras</h2>
-        <ul>
-            <li>Carrera 1 - Fecha</li>
-            <li>Carrera 2 - Fecha</li>
-            <li>Carrera 3 - Fecha</li>
-        </ul>
-    </section>
-
-    <!-- Posición en la Carrera Actual -->
-    <section class="current-position">
-        <h2>Posición Actual</h2>
-        <p>¡Estás en la posición X en la carrera actual!</p>
-    </section>    
+        <!-- Posición en la Carrera Actual -->
+        <div class="current-position">
+            <h2>Posición Actual</h2>
+            <p>¡Estás en la posición X en la carrera actual!</p>
+        </div>
+    </div>    
 </body>
 

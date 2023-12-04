@@ -10,9 +10,27 @@ body {
     background: linear-gradient(to bottom, #F92868 0%, #FF6F61 100%);
 }
 
-section {
+.main_container {
+    display: grid;
+    grid-template-columns: 2fr auto 2fr; 
+    grid-template-rows: auto 50px 1fr 50px auto 50px auto 200px;
+}
+
+div {
     width: 100%;
     max-width: 600px; /* Puedes ajustar el ancho máximo según tus preferencias */
+}
+
+.carousel {
+    grid-area: 3 / 2 / 4 / 3;
+}
+
+.next-races {
+    grid-area: 5 / 2 / 6 / 3;
+}
+
+.current-position {
+    grid-area: 7 / 2 / 8 / 3;
 }
 
 .carousel, .next-races, .current-position {
