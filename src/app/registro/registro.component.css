@@ -3,10 +3,9 @@
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 50px 100px auto 50px auto 100px auto 100px;
-    background: linear-gradient(to bottom, #F92868 0%, #FF6F61 100%);
     color: #fff;
-    font-family: "Poppins", sans-serif;
   }
+  
 
   .caja_titulo {
     grid-area: 1 / 2 / 2 / 4;

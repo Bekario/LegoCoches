@@ -11,10 +11,6 @@
     grid-area: 1 / 1 / 2 / 4;
 }
 
-body {
-    background: linear-gradient(to bottom, #F92868 0%, #FF6F61 100%);
-}
-
 .caja_titulo {
     grid-area: 3 / 2 / 4 / 3;
     margin: auto;

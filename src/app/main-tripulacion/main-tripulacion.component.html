@@ -1,27 +1,25 @@
-<body>
-    <div class="main_container">
-        <app-barra-navegacion class="barra"></app-barra-navegacion>
-        <!-- Carrusel de Últimas Noticias -->
-        <div class="carousel">
-            <app-carrusel-noticias ngSkipHydration></app-carrusel-noticias>
-        </div>
 
-        <!-- Próximas Carreras -->
-        <div class="next-races">
-            <h2>Próximas Carreras</h2>
-            <ul>
-                <li><button class="nobutton">Carrera 1 - 01/01/2024</button></li>
-                <li><button class="nobutton">Carrera 2 - 02/01/2024</button></li>
-                <li><button class="nobutton">Carrera 3 - 03/01/2024</button></li>
-            </ul>
-        </div>
+<div class="main_container">
+    <app-barra-navegacion class="barra"></app-barra-navegacion>
+    <!-- Carrusel de Últimas Noticias -->
+    <div class="carousel">
+        <app-carrusel-noticias></app-carrusel-noticias>
+    </div>
 
-        <!-- Posición en la Carrera Actual -->
-        <div class="current-position">
-            <h2>Posición Actual</h2>
-            <p>¡Estás en la posición <strong>#3</strong> de la carrera actual!</p>
-        </div>
-    </div>    
-</body>
+    <!-- Próximas Carreras -->
+    <div class="next-races">
+        <h2>Próximas Carreras</h2>
+        <ul>
+            <li><button class="nobutton">Carrera 1 - 01/01/2024</button></li>
+            <li><button class="nobutton">Carrera 2 - 02/01/2024</button></li>
+            <li><button class="nobutton">Carrera 3 - 03/01/2024</button></li>
+        </ul>
+    </div>
 
-<app-barra-inferior></app-barra-inferior>
+    <!-- Posición en la Carrera Actual -->
+    <div class="current-position">
+        <h2>Posición Actual</h2>
+        <p>¡Estás en la posición <strong>#3</strong> de la carrera actual!</p>
+    </div>
+    <app-barra-inferior class="barra-inferior"></app-barra-inferior>
+</div>    
