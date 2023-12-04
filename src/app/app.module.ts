@@ -9,6 +9,7 @@ import { BarraInferiorComponent } from './barra-inferior/barra-inferior.componen
 import { RegistroComponent } from './registro/registro.component';
 import { MainTripulacionComponent } from './main-tripulacion/main-tripulacion.component';
 import { CarruselNoticiasComponent } from './carrusel-noticias/carrusel-noticias.component';
+import { PerfilTripulacionComponent } from './perfil-tripulacion/perfil-tripulacion.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CarruselNoticiasComponent } from './carrusel-noticias/carrusel-noticias
     BarraInferiorComponent,
     RegistroComponent,
     MainTripulacionComponent,
-    CarruselNoticiasComponent
+    CarruselNoticiasComponent,
+    PerfilTripulacionComponent
   ],
   imports: [
     BrowserModule,
