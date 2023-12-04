@@ -7,7 +7,11 @@
 
     <div class="reserva">
         <p class="fecha_txt">Fecha</p>
-        
+        <mat-form-field>
+            <input matInput [matDatepicker]="picker" placeholder="Selecciona una fecha">
+            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
         <p class="equipo_txt">Equipo</p>
 
         <p class="legocar_txt">LegoCar</p>

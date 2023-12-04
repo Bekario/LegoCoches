@@ -12,6 +12,12 @@ import { CarruselNoticiasComponent } from './carrusel-noticias/carrusel-noticias
 import { PerfilTripulacionComponent } from './perfil-tripulacion/perfil-tripulacion.component';
 import { CampeonatosComponent } from './campeonatos/campeonatos.component';
 import { ReservarCircuitoComponent } from './reservar-circuito/reservar-circuito.component';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatInputModule } from '@angular/material/input';
+import { MatNativeDateModule } from '@angular/material/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MAT_DATE_LOCALE } from '@angular/material/core';
+
 
 @NgModule({
   declarations: [
@@ -24,14 +30,20 @@ import { ReservarCircuitoComponent } from './reservar-circuito/reservar-circuito
     CarruselNoticiasComponent,
     PerfilTripulacionComponent,
     CampeonatosComponent,
-    ReservarCircuitoComponent
+    ReservarCircuitoComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatDatepickerModule,
+    MatInputModule,
+    MatNativeDateModule,
+    BrowserAnimationsModule
+    
   ],
   providers: [
-    provideClientHydration()
+    provideClientHydration(),
+    { provide: MAT_DATE_LOCALE, useValue: 'es-ES' }, // Configura el idioma a español
   ],
   bootstrap: [AppComponent]
 })
