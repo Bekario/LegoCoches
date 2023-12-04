@@ -42,32 +42,7 @@ div {
     background: rgba(255, 255, 255, 0.8);
     padding: 30px;
     border-radius: 18px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-
-
-    
-}
-
-.news-carousel {
-    display: flex;
-    overflow-x: hidden;
-    gap: 20px;
-    justify-content: space-between;
-    justify-content: center;
-
-    
-}
-
-.news-item {
-    max-width: 300px;
-    background-color: inherit;
-}
-
-.news-item img {
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  
 }
 
 ul {
@@ -76,26 +51,18 @@ ul {
 }
 
 li {
-
     text-align: center;
-    
 }
 
-.news-carousel .news-item.active {
-    border: 2px solid #007BFF;
-  }
-
-h2, h3 {
+h2{
     color: #333;
     text-align: center;
 }
-
 
 p {
     margin: 0;
     color: #666;
     text-align: center;
-
 }
 
 .nobutton{
@@ -111,10 +78,4 @@ p {
     margin-bottom: 10px;
     text-align: center;
     cursor: pointer;
-}
-
-.carousel-buttons {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
 }
