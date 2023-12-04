@@ -10,6 +10,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { MainTripulacionComponent } from './main-tripulacion/main-tripulacion.component';
 import { CarruselNoticiasComponent } from './carrusel-noticias/carrusel-noticias.component';
 import { PerfilTripulacionComponent } from './perfil-tripulacion/perfil-tripulacion.component';
+import { CampeonatosComponent } from './campeonatos/campeonatos.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PerfilTripulacionComponent } from './perfil-tripulacion/perfil-tripulac
     RegistroComponent,
     MainTripulacionComponent,
     CarruselNoticiasComponent,
-    PerfilTripulacionComponent
+    PerfilTripulacionComponent,
+    CampeonatosComponent
   ],
   imports: [
     BrowserModule,
