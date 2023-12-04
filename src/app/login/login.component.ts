@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, Renderer2 } from '@angular/core';
+
 import { Router } from '@angular/router';
 
 
@@ -10,10 +11,18 @@ import { Router } from '@angular/router';
 })
 
 export class LoginComponent {
-  constructor(private router: Router) { }
-   
-  irAPagina1() {
-    this.router.navigate(['/pagina2']);
+  constructor(private router: Router, private el: ElementRef, private renderer: Renderer2) {
+    this.setHeight('100%');
   }
-}
+
+  irAInicio() {
+    this.router.navigate(['inicio']);
+    this.setHeight('auto');
+  }
+
+  private setHeight(value: string) {
+    const htmlElement = this.el.nativeElement.ownerDocument.documentElement;
+    this.renderer.setStyle(htmlElement, 'height', value);
+  }
+}  
 

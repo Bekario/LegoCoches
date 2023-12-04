@@ -11,7 +11,20 @@ import { Router } from '@angular/router';
 export class BarraNavegacionComponent {
   constructor(private router: Router) { }
   
-  irAPagina1() {
-    this.router.navigate(['/pagina1']);
+  irAPerfil() {
+    this.router.navigate(['perfil']);
+  }
+
+  irACampeonato() {
+    this.router.navigate(['campeonato']);
+  }
+
+  irAInicio() {
+    this.router.navigate(['inicio']);
+  }
+
+  cerrarSesion() {
+    this.router.navigate(['login']);
+
   }
 }

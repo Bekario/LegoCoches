@@ -1,12 +1,12 @@
 .login-container {
     display: grid;
     grid-template-columns: 2fr auto 2fr;
-    grid-template-rows: auto 50px auto 200px;
+    grid-template-rows: 30% auto 50px auto 30%;
 }
 
 .caja_titulo {
-  grid-area: 1 / 2 / 2 / 3;
-}
+  grid-area: 2 / 2 / 3 / 3;
+} 
 
 .titulo {
   color: black;
@@ -22,7 +22,7 @@
   padding: 30px;
   border-radius: 18px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-  grid-area: 3 / 2 / 4 / 3;
+  grid-area: 4 / 2 / 5 / 3;
 }
 
 button:hover {

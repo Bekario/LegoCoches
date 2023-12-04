@@ -33,12 +33,12 @@ import { MAT_DATE_LOCALE } from '@angular/material/core';
     ReservarCircuitoComponent,
   ],
   imports: [
-    BrowserModule,
     AppRoutingModule,
+    BrowserModule,
     MatDatepickerModule,
     MatInputModule,
     MatNativeDateModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
     
   ],
   providers: [
