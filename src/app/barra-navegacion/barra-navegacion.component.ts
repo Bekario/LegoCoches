@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
+
 
 @Component({
   selector: 'app-barra-navegacion',
@@ -6,5 +9,9 @@ import { Component } from '@angular/core';
   styleUrl: './barra-navegacion.component.css'
 })
 export class BarraNavegacionComponent {
-
+  constructor(private router: Router) { }
+  
+  irAPagina1() {
+    this.router.navigate(['/pagina1']);
+  }
 }

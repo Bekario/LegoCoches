@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { BarraInferiorComponent } from '../barra-inferior/barra-inferior.component';
+import { Router } from '@angular/router';
+
 
 
 @Component({
@@ -9,5 +10,10 @@ import { BarraInferiorComponent } from '../barra-inferior/barra-inferior.compone
 })
 
 export class LoginComponent {
-
+  constructor(private router: Router) { }
+   
+  irAPagina1() {
+    this.router.navigate(['/pagina2']);
+  }
 }
+
