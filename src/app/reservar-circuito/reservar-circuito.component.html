@@ -8,9 +8,9 @@
     <div class="reserva">
         <p class="fecha_txt">Fecha</p>
         <mat-form-field>
-            <input matInput [matDatepicker]="picker" placeholder="Selecciona una fecha">
+            <input class="input" matInput [matDatepicker]="picker" placeholder="Selecciona una fecha">
             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-            <mat-datepicker #picker></mat-datepicker>
+            <mat-datepicker #picker panelClass="datepickerTwo"></mat-datepicker>
         </mat-form-field>
         <p class="equipo_txt">Equipo</p>
 

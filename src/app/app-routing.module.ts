@@ -5,6 +5,7 @@ import { MainTripulacionComponent } from './main-tripulacion/main-tripulacion.co
 import { LoginComponent } from './login/login.component';
 import { PerfilTripulacionComponent } from './perfil-tripulacion/perfil-tripulacion.component';
 import { RegistroComponent } from './registro/registro.component';
+import { ReservarCircuitoComponent } from './reservar-circuito/reservar-circuito.component';
 
 
 
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'inicio', component: MainTripulacionComponent },
   { path: 'perfil', component: PerfilTripulacionComponent },
   { path: 'registro', component: RegistroComponent },
+  { path: 'reservar_circuito', component: ReservarCircuitoComponent },
 ];
 
 @NgModule({
