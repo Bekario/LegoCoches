@@ -1,4 +1,4 @@
-.campeonatos-container {
+.carreras-container {
     display: grid;
     grid-template-columns: 20% auto 20%;
     grid-template-rows: auto 50px auto 50px auto 50px auto 100px auto 200px;
@@ -53,9 +53,9 @@
 
 img{
     width: auto;
-    height: 50%;
-    vertical-align: middle; /* Alinea verticalmente la imagen al centro */
-    
+    height: 70%; 
+    vertical-align: middle; 
+    border-radius: 35px;
 
 }
 
