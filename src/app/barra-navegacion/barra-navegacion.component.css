@@ -18,6 +18,11 @@
   width: 80px;
   height: 80px;
   cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.logo:hover { 
+  transform: scale(1.1);
 }
   
 /* Estilos para los elementos de la barra de navegación */
