@@ -13,4 +13,8 @@ export class RegistroComponent {
   irAInicio() {
     this.router.navigate(['inicio']);
   }
+
+  volver() {
+    this.router.navigate(['login']);
+  }
 }
