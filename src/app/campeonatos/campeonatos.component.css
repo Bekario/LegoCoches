@@ -1,6 +1,6 @@
 .campeonatos-container {
     display: grid;
-    grid-template-columns: 20% auto 20%;
+    grid-template-columns: 2fr auto 2fr;
     grid-template-rows: auto 50px auto 30px auto 100px auto 100px auto 200px;
     margin: 0; 
     color: #fff;
