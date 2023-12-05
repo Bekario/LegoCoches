@@ -20,6 +20,13 @@ button:hover {
   background: #ff6f61;
 }
 
+.registrate {
+  margin-top: 35px;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;  
+  color: gray;
+}
 
 /* Input de texto */
 

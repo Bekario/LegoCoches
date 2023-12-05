@@ -9,7 +9,7 @@
     </div>
 
     <div class="form__group field">
-      <input type="input" class="form__field" placeholder="Usuario" required="">
+      <input type="password" class="form__field" placeholder="Usuario" required="">
       <label class="form__label">Contraseña</label>
     </div>
 
@@ -21,7 +21,9 @@
         </svg>
       </div>
     </button>
-
+    <p (click)="registarse()"  class="registrate">
+      ¿Aun no tienes cuenta?<br>Registrate
+    </p>
   </form>
 </div>
 

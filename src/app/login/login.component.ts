@@ -20,6 +20,11 @@ export class LoginComponent {
     this.setHeight('auto');
   }
 
+  registarse() {
+    this.router.navigate(['registro']);
+    this.setHeight('auto');
+  }
+
   private setHeight(value: string) {
     const htmlElement = this.el.nativeElement.ownerDocument.documentElement;
     this.renderer.setStyle(htmlElement, 'height', value);

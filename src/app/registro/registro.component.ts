@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-registro',
@@ -7,5 +8,9 @@ import { Component } from '@angular/core';
 })
 
 export class RegistroComponent {
- 
+  constructor(private router: Router) { }
+
+  irAInicio() {
+    this.router.navigate(['inicio']);
+  }
 }
