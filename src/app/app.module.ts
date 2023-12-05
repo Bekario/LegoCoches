@@ -18,6 +18,7 @@ import { MatNativeDateModule } from '@angular/material/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { CampeonatoComponent } from './campeonato/campeonato.component';
+import { ClasificacionCampeonatoComponent } from './clasificacion-campeonato/clasificacion-campeonato.component';
 
 
 @NgModule({
@@ -33,6 +34,7 @@ import { CampeonatoComponent } from './campeonato/campeonato.component';
     CampeonatosComponent,
     ReservarCircuitoComponent,
     CampeonatoComponent,
+    ClasificacionCampeonatoComponent,
   ],
   imports: [
     AppRoutingModule,

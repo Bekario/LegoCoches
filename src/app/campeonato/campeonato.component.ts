@@ -14,4 +14,8 @@ export class CampeonatoComponent {
   irAReservar() {
     this.router.navigate(['reservar_circuito']);
   }
+
+  irAClasificacion() {
+    this.router.navigate(['clasificacion-campeonato']);
+  }
 }
