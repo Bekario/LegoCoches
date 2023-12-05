@@ -27,7 +27,7 @@ export class BarraNavegacionComponent {
   }
 
   cerrarSesion() {
-    this.router.navigate(['login']);
+    this.router.navigate(['seleccion_usuario']);
 
   }
 }

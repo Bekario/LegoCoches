@@ -14,7 +14,7 @@ import { SeleccionUsuarioComponent } from './seleccion-usuario/seleccion-usuario
 
 
 const routes: Routes = [
-  { path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirección para la ruta vacía
+  { path: '', redirectTo: '/seleccion_usuario', pathMatch: 'full' }, // Redirección para la ruta vacía
   { path: 'login', component: LoginComponent },
   { path: 'campeonatos', component: CampeonatosComponent },
   { path: 'campeonato', component: CampeonatoComponent },
