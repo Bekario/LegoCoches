@@ -7,6 +7,7 @@ import { PerfilTripulacionComponent } from './perfil-tripulacion/perfil-tripulac
 import { RegistroComponent } from './registro/registro.component';
 import { ReservarCircuitoComponent } from './reservar-circuito/reservar-circuito.component';
 import { CampeonatoComponent } from './campeonato/campeonato.component';
+import { ClasificacionCampeonatoComponent } from './clasificacion-campeonato/clasificacion-campeonato.component';
 
 
 
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'campeonatos', component: CampeonatosComponent },
   { path: 'campeonato', component: CampeonatoComponent },
+  { path: 'clasificacion-campeonato', component: ClasificacionCampeonatoComponent },
   { path: 'inicio', component: MainTripulacionComponent },
   { path: 'perfil', component: PerfilTripulacionComponent },
   { path: 'registro', component: RegistroComponent },
