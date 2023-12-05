@@ -73,7 +73,17 @@ img{
     
 }
 
-
+.inscipcion:active {
+    color: black;
+    box-shadow: 0 0.2rem #dfd9d9;
+    transform: translateY(0.2rem);
+    }
+    
+.inscipcion:disabled {
+    cursor: auto;
+    color: grey;
+    }
+    
 
 
 
