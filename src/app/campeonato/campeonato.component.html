@@ -3,7 +3,7 @@
 <div class="campeonatos-container">        
     <app-barra-navegacion class="barra"></app-barra-navegacion> 
     <form class="caja_titulo">  
-        <h1 class="titulo">Campeonato 1</h1>
+        <h1 class="titulo">{{ nombre }}</h1>
     </form>
 
     <div class="funciones">
@@ -13,7 +13,7 @@
         </div>
 
 
-        <div (click)="irAClasificacion()" class="caja2">
+        <div (click)="irAClasificacion(nombre)" class="caja2">
             <h2 class="titulo2">Clasificacion</h2>
             <img src="../../assets/images/u61.png" alt="">
         </div>

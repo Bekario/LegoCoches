@@ -9,7 +9,7 @@ import { Router } from '@angular/router';
 export class CampeonatosComponent {
 constructor(private router: Router) { }
 
-  irACampeonato() {
-    this.router.navigate(['campeonato']);
+  irACampeonato(nombreCampeonato: string) {
+    this.router.navigate(['campeonato',  { nombreCampeonato }]);
   }
 }
