@@ -25,11 +25,15 @@
 
 }
 
+.titulo2 {
+    align-items: top;
+}
+
 .caja1, .caja2, .caja3, .caja4 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;    
     color: black;
     background: rgba(255, 255, 255, 0.8);
     padding: 15px;
