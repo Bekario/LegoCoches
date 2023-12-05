@@ -20,6 +20,7 @@ import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { CampeonatoComponent } from './campeonato/campeonato.component';
 import { ClasificacionCampeonatoComponent } from './clasificacion-campeonato/clasificacion-campeonato.component';
 import { CarrerasTripulacionComponent } from './carreras-tripulacion/carreras-tripulacion.component';
+import { SeleccionUsuarioComponent } from './seleccion-usuario/seleccion-usuario.component';
 
 
 @NgModule({
@@ -37,6 +38,7 @@ import { CarrerasTripulacionComponent } from './carreras-tripulacion/carreras-tr
     CampeonatoComponent,
     ClasificacionCampeonatoComponent,
     CarrerasTripulacionComponent,
+    SeleccionUsuarioComponent,
   ],
   imports: [
     AppRoutingModule,
