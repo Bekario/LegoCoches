@@ -1,7 +1,7 @@
 .perfil-container {
     display: grid;
     grid-template-columns: 20% auto 20%;
-    grid-template-rows: auto 50px auto 50px auto 50px auto 100px auto 200px;
+    grid-template-rows: auto 50px auto 50px auto 50px auto 5px auto 200px;
     margin: 0; 
     color: black;
 }
@@ -33,15 +33,21 @@
     grid-area: 5 / 2 / 6 / 3;
    
     display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto 50px auto auto 50px auto auto;  
-    width: 50%; 
+    grid-template-columns: auto; 
+    grid-template-rows: auto auto 5px auto auto 30px auto auto;  
+    width: 300px; 
     margin-right: 100px;
     margin: auto;
 }
 
+
+
 .selector_fecha {
     grid-area: 2/ 1 / 3 / 2;
+}
+
+select {
+    width: 300px;
 }
 
 p {
@@ -57,54 +63,20 @@ p {
     grid-area: 4 / 1 / 5 / 2;
 }
 
+.selector_equipo {
+    grid-area: 5 / 1 / 6 / 2;
+}
+
 .legocar_txt {
     grid-area: 7 / 1 / 8 / 2;
 }
 
-.mat-datepicker-toggle{
-    color: black; 
+.selector_legocar {
+    grid-area: 8 / 1 / 9 / 2;
 }
-
-::ng-deep .mat-calendar {
-    background: white;
-    border-radius: 5px;
-}
-
-::ng-deep .mat-calendar-body-label {
-    color: black; 
-}
-
-::ng-deep .mat-calendar-body-cell-content {
-    color: black; 
-}
-
-::ng-deep .mat-calendar-table-header {
-    color: black;
-} 
-
-::ng-deep .mat-calendar-arrow {
-    color: black;
-}
-
-::ng-deep .mat-calendar-body-cell-content {
-    background-color: gray;
-}
-
-::ng-deep .mat-calendar-body-cell-content:active {
-    background-color: #F92868;
-}
-
-::ng-deep .mat-calendar-body-cell-content: {
-    background-color: #F92868;
-}
-
-  
-
-
-
-
+ 
 /* Boton */
-.boton_editar {
+.boton_reservar {
     grid-area: 9 / 2 / 10 / 3;
     background-color: #F3F4C7; 
     border: none;
@@ -120,13 +92,13 @@ p {
     font-size: 20px;
 }
    
-.boton_editar:active {
+.boton_reservar:active {
 color: black;
 box-shadow: 0 0.2rem #dfd9d9;
 transform: translateY(0.2rem);
 }
 
-.boton_editar:disabled {
+.boton_reservar:disabled {
 cursor: auto;
 color: grey;
 }

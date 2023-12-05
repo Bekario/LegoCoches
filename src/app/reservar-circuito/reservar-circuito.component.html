@@ -7,17 +7,30 @@
 
     <div class="reserva">
         <p class="fecha_txt">Fecha</p>
-        <mat-form-field>
+        <mat-form-field class="calendario" appearance="fill">
             <input class="input" matInput [matDatepicker]="picker" placeholder="Selecciona una fecha">
             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
             <mat-datepicker #picker panelClass="datepickerTwo"></mat-datepicker>
         </mat-form-field>
         <p class="equipo_txt">Equipo</p>
-
+        <div class="selector_equipo">
+            <select name="equipo" required>
+                <option>Los Casos</option>
+                <option>VoltAddict</option>
+                <option>Fiumers</option>
+            </select>
+        </div>
         <p class="legocar_txt">LegoCar</p>
+        <div class="selector_legocar">
+            <select name="legocars" required>
+                <option>Fórmula 1</option>
+                <option>4 x 4</option>
+                <option>Náscar</option>
+            </select>
+        </div>
     </div>
 
-    <button class="boton_editar"> 
+    <button (click)="reservarCircuito()" class="boton_reservar"> 
         Realizar Reserva
     </button>
 </div>

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-reservar-circuito',
@@ -6,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './reservar-circuito.component.css'
 })
 export class ReservarCircuitoComponent {
+  constructor(private router: Router) { }
+
+  reservarCircuito() {
+    this.router.navigate(['campeonato']);
+  }
 
 }

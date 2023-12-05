@@ -4,3 +4,25 @@ body {
     font-family: "Poppins", sans-serif;
     margin: 0;
 }
+
+select, option {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #555;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  select:hover,
+  select:focus {
+    border-color: #F92868;
+  }
+  
+  select option {
+    color: #555;
+    font-size: 16px;
+
+}
