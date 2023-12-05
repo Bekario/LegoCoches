@@ -6,5 +6,5 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./main-tripulacion.component.css']
 })
 export class MainTripulacionComponent {
-  
+
 }

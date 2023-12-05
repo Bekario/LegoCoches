@@ -33,7 +33,7 @@
   font-weight: bold;
   text-decoration: none; 
   color: #fff; 
-  cursor: default;
+  cursor: pointer;
 }
 
 .navbar-item:hover {
