@@ -11,19 +11,19 @@ export class CarruselNoticiasComponent {
 
   newsItems = [
     {
-      image: 'https://www.mundodeportivo.com/urbantecno/hero/2023/03/todos-los-satelites-y-rovers-que-la-nasa-ha-mandado-al-espacio.jpg?width=768&aspect_ratio=16:9&format=nowebp',
-      title: 'Increíble descubrimiento en la investigación espacial',
-      description: 'Los científicos han anunciado un descubrimiento asombroso en la exploración espacial, revelando nuevos detalles sobre el universo.'
+      image: 'https://i.etsystatic.com/31956167/r/il/4c04b6/4029052135/il_fullxfull.4029052135_chk7.jpg',
+      title: 'Lego se une en la investigación espacial',
+      description: 'Lego presenta su nueva colección espacial con naves innovadoras y astronautas detallados para explorar el cosmos infinito.'
     },
     {
-      image: 'https://res.cloudinary.com/dkkd45ayz/image/upload/f_auto,q_auto,dpr_auto/w_600,h_343,c_scale/episerver/06a5df51-01d1-44c8-a25f-69f1977ef8f5/a-revolutionary-technology.jpg',
-      title: 'Nueva tecnología revolucionaria cambia la forma en que vivimos',
-      description: 'Una innovadora tecnología ha llegado al mercado, prometiendo transformar la forma en que interactuamos con la tecnología en nuestra vida diaria.'
+      image: 'https://i.ytimg.com/vi/AcXjYTtNMJY/maxresdefault.jpg',
+      title: 'Hecho histórico en la ingeniería de Lego',
+      description: 'Increíble récord: Construyen la torre de Lego más alta del mundo, alcanzando alturas asombrosas y capturando la atención global.'
     },
     {
-      image: 'https://suportamed.com/wp-content/uploads/2021/03/enfermedades-cronicas-imagen-destacada.jpg',
-      title: 'Tratamiento prometedor contra enfermedades crónicas',
-      description: 'Nuevo tratamiento médico ha demostrado ser prometedor en el combate contra enfermedades crónicas, ofreciendo esperanza a millones de personas.'
+      image: 'https://www.brickfanatics.com/wp-content/uploads/LEGO-Star-Wars-75170-The-Phantom-featured.jpg',
+      title: 'Nuevo set lego en colaboracion con Star Wars',
+      description: 'Lego anuncia colaboración con STAR WARS, lanzando sets exclusivos que traen a la vida escenas icónicas en bloques de construcción.'
     }
   ];
 
