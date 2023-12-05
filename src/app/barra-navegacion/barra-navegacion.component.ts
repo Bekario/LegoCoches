@@ -18,6 +18,9 @@ export class BarraNavegacionComponent {
   irACampeonato() {
     this.router.navigate(['campeonato']);
   }
+  irACampeonatos() {
+    this.router.navigate(['campeonatos']);
+  }
 
   irAInicio() {
     this.router.navigate(['inicio']);

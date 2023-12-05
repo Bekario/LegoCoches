@@ -6,13 +6,15 @@ import { LoginComponent } from './login/login.component';
 import { PerfilTripulacionComponent } from './perfil-tripulacion/perfil-tripulacion.component';
 import { RegistroComponent } from './registro/registro.component';
 import { ReservarCircuitoComponent } from './reservar-circuito/reservar-circuito.component';
+import { CampeonatoComponent } from './campeonato/campeonato.component';
 
 
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' }, // Redirección para la ruta vacía
   { path: 'login', component: LoginComponent },
-  { path: 'campeonato', component: CampeonatosComponent },
+  { path: 'campeonatos', component: CampeonatosComponent },
+  { path: 'campeonato', component: CampeonatoComponent },
   { path: 'inicio', component: MainTripulacionComponent },
   { path: 'perfil', component: PerfilTripulacionComponent },
   { path: 'registro', component: RegistroComponent },
