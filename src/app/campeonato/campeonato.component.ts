@@ -18,4 +18,8 @@ export class CampeonatoComponent {
   irAClasificacion() {
     this.router.navigate(['clasificacion-campeonato']);
   }
+
+  irACarreras() {
+    this.router.navigate(['carreras']);
+  }
 }

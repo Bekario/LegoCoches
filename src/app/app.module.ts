@@ -19,6 +19,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MAT_DATE_LOCALE } from '@angular/material/core';
 import { CampeonatoComponent } from './campeonato/campeonato.component';
 import { ClasificacionCampeonatoComponent } from './clasificacion-campeonato/clasificacion-campeonato.component';
+import { CarrerasTripulacionComponent } from './carreras-tripulacion/carreras-tripulacion.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { ClasificacionCampeonatoComponent } from './clasificacion-campeonato/cla
     ReservarCircuitoComponent,
     CampeonatoComponent,
     ClasificacionCampeonatoComponent,
+    CarrerasTripulacionComponent,
   ],
   imports: [
     AppRoutingModule,

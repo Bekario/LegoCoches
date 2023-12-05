@@ -8,6 +8,7 @@ import { RegistroComponent } from './registro/registro.component';
 import { ReservarCircuitoComponent } from './reservar-circuito/reservar-circuito.component';
 import { CampeonatoComponent } from './campeonato/campeonato.component';
 import { ClasificacionCampeonatoComponent } from './clasificacion-campeonato/clasificacion-campeonato.component';
+import { CarrerasTripulacionComponent } from './carreras-tripulacion/carreras-tripulacion.component';
 
 
 
@@ -21,6 +22,7 @@ const routes: Routes = [
   { path: 'perfil', component: PerfilTripulacionComponent },
   { path: 'registro', component: RegistroComponent },
   { path: 'reservar_circuito', component: ReservarCircuitoComponent },
+  { path: 'carreras', component: CarrerasTripulacionComponent },
 ];
 
 @NgModule({
