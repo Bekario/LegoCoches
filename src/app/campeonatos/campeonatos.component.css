@@ -1,7 +1,7 @@
 .campeonatos-container {
     display: grid;
     grid-template-columns: 2fr auto 2fr;
-    grid-template-rows: auto 50px auto 30px auto 100px auto 100px auto 200px;
+    grid-template-rows: auto 50px auto 30px auto 100px auto 100px auto 100px;
     margin: 0; 
     color: #fff;
     font-family: "Poppins", sans-serif;

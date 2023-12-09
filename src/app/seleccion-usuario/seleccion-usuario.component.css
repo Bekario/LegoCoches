@@ -1,7 +1,7 @@
 .seleccion-container {
     display: grid;
-    grid-template-columns: 15% auto 15%;
-    grid-template-rows: 15% auto 50px auto 20px auto 50px 30%;
+    grid-template-columns: 5% auto 5%;
+    grid-template-rows: 5% auto 40px auto 10px auto 50px 10%;
     margin: auto; 
     color: #fff;
     font-family: "Poppins", sans-serif;
@@ -36,7 +36,7 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%; 
     grid-template-rows: 300px;  
-
+    margin: auto;
 }
 
 .titulo2 {
