@@ -14,8 +14,8 @@ export class CampeonatoComponent implements OnInit {
   nombre: string = '';
   constructor(private router: Router, private route: ActivatedRoute) { }
 
-  irAReservar() {
-    this.router.navigate(['reservar_circuito']);
+  irAReservar(nombre: string) {
+    this.router.navigate(['reservar_circuito',  { nombre }]);
   }
 
   irAClasificacion(nombre: string) {
@@ -27,7 +27,7 @@ export class CampeonatoComponent implements OnInit {
   }
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      this.nombre = params.get('nombreCampeonato') || '';
+      this.nombre = params.get('nombre') || '';
     });
   }
 }
