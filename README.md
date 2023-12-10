@@ -1,1 +1,1 @@
-Esto es una WEB creada para aprender a usar Angular y la creación de aplicaciones WEB, no considerar este proyecto como ejemplo o referencia puesto que ha sido realizado como aprendizaje desde cero y sin ninguna nocion de html o css.
+Esto es una WEB creada para aprender a usar Angular y la creación de aplicaciones WEB, no considerar este proyecto como ejemplo o referencia puesto que ha sido realizado como aprendizaje desde cero y sin ninguna nocion de html o css. Creado para la asignatura Interfaz de Usuario.
